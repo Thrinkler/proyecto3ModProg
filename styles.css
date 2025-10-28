@@ -4,8 +4,8 @@
 body { 
     margin :0; 
     font-family : system-ui , sans-serif ; 
-    background :#0f1320 ;
-    color :#e9edf5 
+    background :#0f2011 ;
+    color :#e9f5e9 
 }
 .container { 
     max-width :720px; 
@@ -13,8 +13,8 @@ body {
     padding :0 16px 
 }
 .card { 
-    background :#161b2b;
-    border :1px solid #22304a;
+    background :#162b1d;
+    border :1px solid #274a22;
     border-radius :12px;
     padding :16px; 
     margin :12px 0
@@ -34,30 +34,30 @@ body {
 
     border : px solid #22304a;
     border-radius :10px ; 
-    background :#11172a
+    background :#112a11
 }
 .item--done { 
     opacity :.8; 
     text-decoration : line-through 
 }
 .muted { 
-    color :#9aacc7 
+    color :#9ac79c 
 }
 button { 
     padding :8px 12px ;
     border-radius :10px ;
-    border :1px solid #2a3a5a; 
-    background :#1a2440 ;
-    color :#e9edf5 ;
+    border :1px solid #355a2a; 
+    background :#1e401a ;
+    color :#ebf5e9 ;
     cursor : pointer 
 }
 button:hover {
-    border-color :#4ea1ff 
+    border-color :#5aff4e 
 }
 input { 
     padding :8px 10px; 
     border-radius :8px; 
-    border :1px solid #273555;
-    background :#0f1526 ;
-    color :#e9edf5 
+    border :1px solid #2c5527;
+    background :#11260f ;
+    color :#ecf5e9 
 }

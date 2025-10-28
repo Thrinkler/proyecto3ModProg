@@ -21,7 +21,7 @@ function render() {
     $lista.innerHTML = tareas.length
         ? tareas.map(t => 
             `<li class=" item ${t.completada ? " item-done ": ""}" >
-    <span>${t.completada ? "si":"no"} </span>
+    <span>${t.completada ? "hecha: ":"no hecha: "} </span>
     <strong >${ escapeHtml (t.nombre )} </strong>
     <div style="margin-left:auto ; display:flex; gap:6px">
     <button data-act="toggle" data-id="${t.id}">Toggle</button>
